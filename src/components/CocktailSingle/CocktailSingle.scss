@@ -1,0 +1,49 @@
+@import "../../vars.scss";
+.info{
+   font-size: 30px;
+}
+.cocktail{
+   padding-top: 80px;
+   display: flex;
+   @media (max-width:$md2+px){
+      flex-direction: column;
+   }
+   
+   &__column{
+      display: flex;
+   flex-direction: column;
+   justify-content: center;
+      padding: 20px;
+      img{
+         max-width: 500px;
+         max-height: 500px;
+         @media (max-width:$md1+px){
+             max-width: 450px;
+         max-height: 450px;
+         }
+          @media (max-width:$md2+px){
+             max-width: 400px;
+         max-height: 400px;
+         }
+          @media (max-width:$md3+px){
+             max-width: 350px;
+         max-height: 350px;
+         }
+          @media (max-width:$md4+px){
+             max-width: 300px;
+         max-height: 300px;
+         }
+      }
+   }
+   &__str{
+      margin-bottom: 15px;
+      span {
+         display: inline-block;
+      color: #fff;
+      background: #476a2e;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      }
+   }
+}

@@ -1,0 +1,19 @@
+.search{
+   padding: 30px 20px;
+   background: #fff;
+   max-width: 600px;
+   margin: 0 auto;
+   box-shadow: 2px 5px 3px 0px rgba(0,0,0,0.5);
+   margin-bottom: 60px;
+   &__title{
+      font-size: 22px;
+      color: rgb(93, 129, 93);
+      margin-bottom: 10px;
+   }
+   &__input{
+      height: 30px;
+      width: 100%;
+      border: 1px solid rgb(206, 203, 203);
+      padding: 0 10px;
+   }
+}
